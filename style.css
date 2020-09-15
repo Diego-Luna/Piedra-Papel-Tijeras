@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f39c12;
+  font-family: sans-serif;
+
+}
+
+section {
+  margin: 5% 25% 0 25%;
+}
+
+button { 
+  /* background-color: #1188F2; */
+  background-color: transparent;
+  border: 4px solid white;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  color: white;
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: #0057A6;
+  border: #0057A6;
+}
+
+i{
+  text-decoration: none;
+  font-style: normal;
+}
+p{
+  display: inline;
+}
+
+.seccion-botones{
+  display: flex;
+  justify-content: space-around;
+  margin: 5%;
+}
+.seccion-botones_title{
+  color: white;
+}
+
+.seccion-principal{
+  display: block;
+  justify-content: center;
+  margin: 5%;
+}
+.seccion-principal-tablaDatos {
+  background-color: transparent;
+  border: 2px solid white;
+  display: flex;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: space-around;
+}
+.seccion-principal-button{
+  margin: 0;
+  margin: 0% 45% 15% 40%;
+}
+.seccion-principal-tablaDatos_jugador{
+  color: white;
+  font-family: sans-serif;
+  display: flex;
+}
+
+.seccion-principal-tablaDatos_puntaje  {
+  color: white;
+  font-size: 40px;
+}

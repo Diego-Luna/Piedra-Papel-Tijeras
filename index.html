@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reto</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <section>
+    <!-- puntos y resultados -->
+    <div class="seccion-principal">
+      <button class="seccion-principal-button" onclick="Reset();">
+        Reinicio
+      </button>
+
+      <div class="seccion-principal-tablaDatos">
+        <p class="seccion-principal-tablaDatos_jugador">Usuario</p>
+        <div class="seccion-principal-tablaDatos_puntaje">
+          <i id="PuntajeUsuario">0</i>
+          :
+          <i id="PuntajeComputadora">0</i>
+        </div>
+        <p class="seccion-principal-tablaDatos_jugador">Computadora</p>
+      </div>
+
+    </div>
+
+    <h3 class="seccion-botones seccion-botones_title">Haz tu elección</h3>
+
+    <!-- botones -->
+    <div class="seccion-botones">
+      <!-- piedra -->
+      <button onclick="JugadorPlay(1);"> Piedra </button>
+      <!-- Papel -->
+      <button onclick="JugadorPlay(2);"> Papel </button>
+      <!-- Tigeras -->
+      <button onclick="JugadorPlay(3)" > Tigeras </button>
+    </div>
+
+  </section>
+
+  <script src="./logica.js"></script>
+
+</body>
+
+</html>
